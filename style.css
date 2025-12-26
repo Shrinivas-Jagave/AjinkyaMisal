@@ -15,7 +15,7 @@ body {
       rgba(255, 225, 225, 0.2),
       rgba(255, 255, 225, 0.2)
     ),
-    url("backGroundImg.png");
+    url(Resources/backGroundImg.png);
     background-size: contain;
 }
 
@@ -230,12 +230,4 @@ section {
     padding: 20px;
   }
 }
-
-.go-top:hover
-{
-  transform: scale(1.04);
-  box-shadow: 0 0 15px #4d4d4d;
-
-}
-
 
