@@ -3,6 +3,12 @@ html{
   scroll-behavior: smooth;
 }
 
+.offcanvas.custom-offcanvas
+{
+  width: 300px !important;
+  background-color: rgb(207, 207, 207);
+}
+
 section
 {
   background-color: rgba(255, 246, 168, 0.5);
@@ -15,7 +21,7 @@ body {
       rgba(255, 225, 225, 0.2),
       rgba(255, 255, 225, 0.2)
     ),
-    url(backGroundImg.png);
+    url(Resources/backGroundImg.png);
     background-size: contain;
 }
 
@@ -230,6 +236,3 @@ section {
     padding: 20px;
   }
 }
-
-
-
