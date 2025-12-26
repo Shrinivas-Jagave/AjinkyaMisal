@@ -21,7 +21,7 @@ body {
       rgba(255, 225, 225, 0.2),
       rgba(255, 255, 225, 0.2)
     ),
-    url(Resources/backGroundImg.png);
+    url(backGroundImg.png);
     background-size: contain;
 }
 
@@ -236,3 +236,4 @@ section {
     padding: 20px;
   }
 }
+
