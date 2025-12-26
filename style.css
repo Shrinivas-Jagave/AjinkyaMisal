@@ -1,13 +1,24 @@
-@media(max-width: 480px)
-{
-  #ImageAbout
-  {
-    display: none;
-  }
-}
+
 html{
   scroll-behavior: smooth;
 }
+
+section
+{
+  background-color: rgba(255, 246, 168, 0.5);
+}
+
+body {
+  height: 100vh;
+  background:
+      linear-gradient(
+      rgba(255, 225, 225, 0.2),
+      rgba(255, 255, 225, 0.2)
+    ),
+    url(back.png);
+    background-size: contain;
+}
+
 
 .divborder
 {
@@ -86,27 +97,6 @@ span
 }
 
 
-@media (max-width: 480px) {
-  .hero-img {
-    height: 300px;
-    width: 300px;
-  }
-  .custom-caption h2 {
-    font-size: 1.5rem;
-  }
-  .custom-caption p {
-    font-size: 1rem;
-  }
-  .slider-img {
-    height: 250px;
-  }
-  .resizingGallery
-  {
-    margin-left: 0px;
-  }
-}
-
-
 .resizingGallery {
   width: 600px;
   margin: 0 auto;   
@@ -129,11 +119,15 @@ span
 }
 
 .card:hover {
-  transform: scale(1.04);
+  transform: scale(1.1);
   box-shadow: 0 0 15px #4d4d4d;
 }
 
-
+.banner
+{
+  width: 600px;
+  height: 400px;
+}
 
 .footer
 {
@@ -202,4 +196,44 @@ section {
 {
   transform: scale(1.04);
   box-shadow: 0 0 15px #4d4d4d;
+}
+
+@media (max-width: 480px) {
+
+  #ImageAbout {
+    display: none;
+  }
+
+  .resizingGallery {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0 0 15px #4d4d4d;
+  }
+
+  .custom-caption h2 {
+    font-size: 1.5rem;
+  }
+
+  .custom-caption p {
+    font-size: 1rem;
+  }
+
+  .slider-img {
+    height: 250px;
+    object-fit: cover;
+  }
+
+  .banner {
+    min-height: 100px;
+    padding: 20px;
+  }
+}
+
+.go-top:hover
+{
+  transform: scale(1.04);
+  box-shadow: 0 0 15px #4d4d4d;
+
 }
